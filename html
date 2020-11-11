@@ -1,0 +1,315 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <title>Daniel's Portfolio</title>
+  </head>
+  <body>
+    <header class="st-header" id="header">
+      <nav class="nav sec-container">
+        <a href="#" class="nav-logo">D.Brown</a>
+        <div class="nav-menu" id="menu">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link nav-btn">Contact Me</a></li>
+          </ul>
+        </div>
+        <div class="nav-toggle" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-container sec-container bd-grid">
+        <div class="home-data">
+          <span class="home-greeting">Ui/Ux Developer</span>
+          <h1 class="home-name">Daniel Brown</h1>
+          <span class="home-profession">I believe the creation of Ui/Ux design is an artform and is greatly desired and needed in an everchanging and competitive market</span>
+          <a download="" href="#" class="button">Download Resume</a>
+        </div>
+        <div class="home-social">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section bd-container" id="about">
+      <span class="section-subtitle">My Story</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-container bd-grid">
+        <div class="about-data bd-grid">
+          <p class="about-description"><span>Hi, I am a<br>Ui/Ux developer, I am passionate about creating developing web interfaces. With years of experience in web design and development</span> </p>
+          <div>
+            <span class="about-number">3+</span>
+            <span class="about-achievement">Years of Experience</span>
+          </div>
+          <div>
+            <span class="about-number">17+</span>
+            <span class="about-achievement">Projects Completed</span>
+          </div>
+          <div>
+            <span class="about-number">3</span>
+            <span class="about-achievement">Best work Awards</span>
+          </div>
+        </div>
+        <img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/27912959_592523834413712_1159388038887736183_o-1.jpg" alt="" class="about-img">
+      </div>
+    </section>
+
+    <section class="services section bd-container" id="services">
+      <span class="section-subtitle">What I Offer</span>
+      <h2 class="section-title">Services</h2>
+      <div class="services-container bd-grid">
+        <div class="services-data">
+          <i class="fas fa-palette services-icon"></i>
+          <h3 class="services-title">Ui/Ux Design</h3>
+          <p class="services-description">I design unique Ui/Ux experiences, that customers enjoy and remeber. </p>
+          <a href="#" class="new-button">Learn More</a>
+        </div>
+        <div class="services-data">
+          <i class="fas fa-laptop services-icon"></i>
+          <h3 class="services-title">Web Development</h3>
+          <p class="services-description">I develop beautiful and responsive websites. </p>
+          <a href="#" class="new-button">Learn More</a>
+        </div>
+        <div class="services-data">
+          <i class="fas fa-palette services-icon"></i>
+          <h3 class="services-title">Graphic Design</h3>
+          <p class="services-description">The ability to create custom icons and PNG images for any buisness. </p>
+          <a href="#" class="new-button">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio section sec-container" id="portfolio">
+      <span class="section-subtitle">My Recent Projects</span>
+      <h2 class="section-title">Portfolio</h2>
+      <div class="portfolio-nav">
+        <span class="portfolio-item active-portfolio" data-filter="all">All</span>
+        <span class="portfolio-item" data-filter=".web">WebDev</span>
+        <span class="portfolio-item" data-filter=".ux">Figma</span>
+        <span class="portfolio-item" data-filter=".app">Wordpress</span>
+      </div>
+      <div class="portfolio-container bd-grid">
+        <div class="portfolio-content mix web">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Screenshot-2020-11-09-at-6.22.01-PM-1024x576.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Web Development</span>
+            <h1 class="portfolio-newtitle">Nemeziz Shop</h1>
+            <h2 class="portfolio-title">Fan site for Adidas Nemeziz</h2>
+            <button onclick="window.location.href='https://stackblitz.com/edit/responsive-adidas-nemeziz'" class="portfolio-icon">View Project</button>
+            <!--<a href="#" class="portfolio-icon"><i class="fas fa-code"></i></a>-->
+          </div>
+        </div>
+            <div class="portfolio-content mix web">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Screenshot-2020-11-09-at-6.23.20-PM-1024x576.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Web Development</span>
+            <h1 class="portfolio-newtitle">Images Website</h1>
+            <h2 class="portfolio-title">Dynamic images website demonstaring skills in Javascript</h2>
+            <button onclick="window.location.href='https://stackblitz.com/edit/dynamic-images-website'" class="portfolio-icon">View Project</button>
+            <!--<a href="#" class="portfolio-icon"><i class="fas fa-code"></i></a>-->
+          </div>
+        </div>
+            <div class="portfolio-content mix web">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Screenshot-2020-11-09-at-6.21.30-PM-1024x576.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Web Development</span>
+            <h1 class="portfolio-newtitle">Fan Site</h1>
+            <h2 class="portfolio-title">Borussia Dortmund Fan Site</h2>
+            <button onclick="window.location.href='https://stackblitz.com/edit/dortmund-fansite'" class="portfolio-icon">View Project</button>
+            <!--<a href="#" class="portfolio-icon"><i class="fas fa-code"></i></a>-->
+          </div>
+            </div>
+            <div class="portfolio-content mix web">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Screenshot-2020-11-09-at-6.23.57-PM-1024x576.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Web Development</span>
+            <h1 class="portfolio-newtitle">Leet Kicks</h1>
+            <h2 class="portfolio-title">KD 12 Web Design</h2>
+            <button onclick="window.location.href='https://stackblitz.com/edit/figma-design-1'" class="portfolio-icon">View Project</button>
+            <!--<a href="#" class="portfolio-icon"><i class="fas fa-code"></i></a>-->
+          </div>
+            </div>
+        <div class="portfolio-content mix web">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Screenshot-2020-11-09-at-6.24.22-PM-1024x576.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Web Development</span>
+            <h1 class="portfolio-newtitle">Start Up Analytics</h1>
+            <h2 class="portfolio-title">Web design for startup analytics site</h2>
+            <button onclick="window.location.href='https://stackblitz.com/edit/figma-responsive-website'" class="portfolio-icon">View Project</button>
+            <!---<a href="#" class="portfolio-icon"><i class="fas fa-code"></i></a>-->
+          </div>
+        </div>
+        <div class="portfolio-content mix web">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Screenshot-2020-11-09-at-6.06.12-PM-1024x576.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Web Development</span>
+            <h1 class="portfolio-newtitle">Fitness Webdesign</h1>
+            <h2 class="portfolio-title">Web design for fitness website</h2>
+            <button onclick="window.location.href='https://stackblitz.com/edit/responsive-fitness-website'" class="portfolio-icon">View Project</button>
+            <!--<a href="#" class="portfolio-icon"><i class="fas fa-code"></i></a>-->
+          </div>
+        </div>
+        <div class="portfolio-content mix app">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Screenshot-2020-11-09-at-6.26.20-PM-1024x576.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Wordpress</span>
+            <h1 class="portfolio-newtitle">Solunely</h1>
+            <h2 class="portfolio-title">Website for those that are depressed</h2>
+            <button onclick="window.location.href='https://solunely.com/'" class="portfolio-icon">View Project</button>
+            <!--<a href="#" class="portfolio-icon"><i class="fas fa-code"></i></a>-->
+          </div>
+        </div>
+        <div class="portfolio-content mix ux">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Desktop-1-1024x728.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Ui/Ux Design</span>
+            <h1 class="portfolio-newtitle">Music App Design</h1>
+            <h2 class="portfolio-title">Figma design for music app</h2>
+            <button onclick="window.location.href='https://www.figma.com/file/KUTioel43SdMGiIjM6CnXr/Ui-Design'" class="portfolio-icon">View Project</button>
+          </div>
+        </div>
+        <div class="portfolio-content mix ux">
+          <a href="#"><img src="https://i0.wp.com/solunely.com/wp-content/uploads/2020/11/Kd-12-1024x728.png" alt="" class="portfolio-img"></a>
+          <div class="portfolio-data">
+            <span class="portfolio-subtitle">Ui/Ux Design</span>
+            <h1 class="portfolio-newtitle">KD 12 Figma Design</h1>
+            <h2 class="portfolio-title">Figma design for the release of the KD 12's</h2>
+            <button onclick="window.location.href='https://www.figma.com/file/1akqjF3yEYNWcEwnd1ExSF/KD-12'" class="portfolio-icon">View Project</button>
+            <!--<a href="#" class="portfolio-icon"><i class="fas fa-code"></i></a>-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="contact section bd-container" id="contact">
+      <span class="section-subtitle">For Hire</span>
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-container bd-grid">
+        <div class="contact-content bd-grid">
+          <div class="contact-box">
+            <i class="fas fa-align-left contact-icon"></i>
+            <h3 class="contact-title">Location</h3>
+            <span class="contact-description"> 4109 Baychester Avenue</span>
+          </div>
+          <div class="contact-box">
+            <i class="fas fa-phone contact-icon"></i>
+            <h3 class="contact-title">Phone</h3>
+            <span class="contact-description">(929) 354-4992</span>
+          </div>
+          <div class="contact-box">
+            <i class="far fa-envelope contact-icon"></i>
+            <h3 class="contact-title">Email</h3>
+            <span class="contact-description"> iamdbrown56@gmail.com</span>
+          </div>
+        </div>
+        <form action="" class="contact-form">
+          <div class="contact-inputs">
+            <input type="text" placeholder="Name"  class="contact-input">
+            <input type="email" placeholder="Email"  class="contact-input">
+          </div>
+          <div class="contact-inputs">
+            <input type="text" placeholder="Project"  class="contact-input">
+            <input type="number" placeholder="Number"  class="contact-input">
+          </div>
+          <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact-input"></textarea>
+          <input type="submit" value="Send Message"  class="contact-btn">
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container bd-container">
+        <h1 class="footer-title">Daniel Brown</h1>
+        <p class="footer-description">Reach out to me</p>
+
+        <div class="footer-social">
+          <a href="#" class="footer-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="footer-link"><i class="fas fa-bolt"></i></i></a>
+          <a href="#" class="footer-link"><i class="fab fa-figma"></i></a>
+        </div>
+        <p class="footer-copy">&#169; 2020 D.Brown. All rights reserved</p>
+
+      </div>
+    </footer>
+
+    <script>
+      const showMenu = (toggleId,navId) =>{
+        const toggle= document.getElementById(toggleId),
+        nav= document.getElementById(navId)
+
+        if(toggle && nav){
+          toggle.addEventListener('click', () =>{
+            nav.classList.toggle('show-menu')
+          })
+        }
+      }
+      showMenu('menu-toggle','menu')
+
+      const navLink = document.querySelectorAll('.nav-link')
+
+      function linkAction(){
+        const navMenu = document.getElementById('menu')
+        navMenu.classList.remove('show-menu')
+      }
+      navLink.forEach(n=> n.addEventListener('click', linkAction))
+
+      const sections = document.querySelectorAll('section[id]')
+
+      function scrollActive(){
+        const scrollY = window.pageYOffset
+
+        sections.forEach(current => {
+          const sectionHeight = current.offsetHeight
+          const sectionTop = current.offsetTop - 50
+          sectionId= current.getAttribute('id')
+
+          if(scrollY . sectionTop && scrollY <=sectionTop + sectionHeight){
+            document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active-link')
+          }else{
+            document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.remove('active-link')
+          }
+        })
+      }
+      window.addEventListener('scroll', scrollActive)
+
+      function scrollHeader(){
+        const header = document.getElementById('header')
+        if(this.scrollY >= 200) header.classList.add('scroll-header'); else header.classList.add('scroll-header')
+      }
+      window.addEventListener('scroll',scrollHeader)
+
+      /*=== Scroll Top ===*/
+      /*=== function scrollTop(){
+        const dcrollTop = document.getElementById('scrool-top')
+        if(this.scrollY >= 500) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
+      };
+      window.addEventListener('scroll',scrollTop) ===*/
+
+      const mixer = mixitup ('.portfolio-container', {
+        selectors: {
+          target: '.portfolio-content'
+        },
+        animation: {
+          duration: 400
+        }
+      });
+
+      const linkPortfolio = document.querySelectorAll('.portfolio-item')
+
+      function activePortfolio(){
+        if(linkPortfolio){
+          linkPortfolio.forEach(l => l.classList.remove('active-portfolio'))
+          this.classList.add('active-portfolio')
+        }
+      }
+      linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
+    </script>
+  </body>
+</html>
